@@ -346,7 +346,7 @@ public class EncryptWebsite extends JFrame {
     }
 
     private void showContactInfo() {
-        String contactMessage = "Contact us at:\nEmail: kr9221@srmist.edu.in\nPhone: +919971063223";
+        String contactMessage = "Contact me at:\nEmail: yc6155@srmist.edu.in\nPhone: +918217854968";
         JOptionPane.showMessageDialog(this, contactMessage, "Contact Information", JOptionPane.INFORMATION_MESSAGE);
     }
 
@@ -362,7 +362,6 @@ public class EncryptWebsite extends JFrame {
                 + "<li>Reset encryption key</li>"
                 + "<li>Clear input/output fields</li>"
                 + "</ul>"
-                + "<br><p>Developed by: Harsh Trivedi</p>"
                 + "</body></html>";
         JOptionPane.showMessageDialog(this, aboutMessage, "About EncryptWebsite", JOptionPane.INFORMATION_MESSAGE);
     }
